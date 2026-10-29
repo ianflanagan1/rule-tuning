@@ -3,6 +3,7 @@ name: ianf-tune-rules
 description: Turn review findings into evidence in the guides in ~/.claude/guides, and into proposed changes to those guides, the rules files Claude loads and lint config, applying only what the user approves. Run after /ianf-review-against-guides in the same session, or on other review findings in the conversation.
 argument-hint: [findings, if not in the conversation]
 disable-model-invocation: true
+model: inherit
 ---
 
 # Tune rules

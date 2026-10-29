@@ -3,6 +3,7 @@ name: ianf-review-against-guides
 description: Review changed code for bugs and language pitfalls against the guides in ~/.claude/guides and the rules Claude loads, confirming each suspected problem by running code, then hand the findings to ianf-tune-rules. Never changes the code.
 argument-hint: [paths or git range]
 disable-model-invocation: true
+model: inherit
 ---
 
 # Review against guides
